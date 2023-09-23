@@ -15,5 +15,5 @@ untracked-->git add;
 ```mermaid
 
     graph TD;
-        untracked-->git add
+        untracked-->"git add"
 ```
