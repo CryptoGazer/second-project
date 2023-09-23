@@ -2,18 +2,14 @@
 ### Yandex Git lessons
 
 
-untracked-->git add;
-        %% git add-->staged (в списке на коммит) + tracked; %%
-        %% staged (в списке на коммит) + tracked-->git commit; %%
-        %% git commit-->tracked; %%
-        %% tracked-->изменения; %%
-        %% изменения-->modified; %%
-        %% modified-->git add; %%
-        %% git add-->staged (в списке на коммит) + tracked; %%
-
-
 ```mermaid
 
     graph TD;
-        untracked-->"git add"
+        U[untracked]-->GA[git add];
+        GA-->S[staged <br> (в списке на коммит) <br> + tracked]-->GC[git commit];
+        GC-->T[tracked];
+        T-->CH[изменения];
+        CH-->M[modified];
+        M-->GAA[git add];
+        GAA-->S;
 ```
