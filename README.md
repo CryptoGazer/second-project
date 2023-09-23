@@ -3,6 +3,7 @@
 
 
 ```mermaid
+
     graph TD;
         untracked-->git add;
         git add-->staged (в списке на коммит) + tracked;
