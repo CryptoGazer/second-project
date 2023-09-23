@@ -5,11 +5,11 @@
 ```mermaid
 
     graph TD;
-        U[untracked]-->GA[git add];
-        GA-->S[staged <br> (в списке на коммит) <br> + tracked]-->GC[git commit];
-        GC-->T[tracked];
-        T-->CH[изменения];
-        CH-->M[modified];
-        M-->GAA[git add];
-        GAA-->S;
+        A[untracked]-->B[git add];
+        B-->C[staged <br> (в списке на коммит) <br> + tracked]-->D[git commit];
+        D-->E[tracked];
+        E-->F[изменения];
+        F-->G[modified];
+        G-->H[git add];
+        H-->C;
 ```
