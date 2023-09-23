@@ -1,6 +1,7 @@
 # Second project
 ### Yandex Git lessons
 
+
 ```mermaid
     graph TD;
         untracked-->git add;
