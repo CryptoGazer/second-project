@@ -2,10 +2,7 @@
 ### Yandex Git lessons
 
 
-```mermaid
-
-    graph TD;
-        untracked-->git add;
+untracked-->git add;
         %% git add-->staged (в списке на коммит) + tracked; %%
         %% staged (в списке на коммит) + tracked-->git commit; %%
         %% git commit-->tracked; %%
@@ -13,4 +10,10 @@
         %% изменения-->modified; %%
         %% modified-->git add; %%
         %% git add-->staged (в списке на коммит) + tracked; %%
+
+
+```mermaid
+
+    graph TD;
+        untracked-->git_add
 ```
